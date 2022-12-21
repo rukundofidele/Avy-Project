@@ -1,2 +1,1 @@
-# Avy-Project
-AVY Project website
+# avyproject.github.io
