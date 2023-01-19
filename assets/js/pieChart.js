@@ -19,6 +19,14 @@ const data = [
   1000000, 50000000, 60000000, 90000000,
 ];
 
+const size = () => {
+  if (screen.width < 600) {
+    return { position: "bottom", fontSize: 25, aspectRatio: 1 | 1 };
+  } else {
+    return { position: "right", fontSize: 18, aspectRatio: 2 | 1 };
+  }
+};
+
 new Chart(ctx, {
   type: "pie",
   data: {
@@ -35,11 +43,17 @@ new Chart(ctx, {
     plugins: {
       legend: {
         display: true,
-        position: "right",
+        position: size().position,
+        labels: {
+          // This more specific font property overrides the global property
+          font: {
+            size: size().fontSize,
+          },
+        },
       },
     },
     devicePixelRatio: 2,
-    aspectRatio: 2 | 1,
-    responsive: true,
+    aspectRatio: size().aspectRatio,
+    responsive: false,
   },
 });
