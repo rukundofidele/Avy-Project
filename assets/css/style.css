@@ -303,7 +303,33 @@ section.investment_sec .heading_wrapper h1 {
   border: none;
 }
 
+.sib-form.subscribe_form .entry__field:focus-within {
+  box-shadow: none
+}
 
+.sib-form.contact_form {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sib-form.contact_form div#sib-container {
+  background-color: transparent;
+  padding: 0;
+}
+
+.sib-form.contact_form form#sib-form button.sib-form-block__button {
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid #0880e8;
+  color: #0880e8;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.sib-form.contact_form form#sib-form button.sib-form-block__button:hover {
+  background-color: #0880e8;
+  color: #ffffff;
+}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
