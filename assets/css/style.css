@@ -331,6 +331,10 @@ section.investment_sec .heading_wrapper h1 {
   color: #ffffff;
 }
 
+section.investment_sec .right_img_wrapper video {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
