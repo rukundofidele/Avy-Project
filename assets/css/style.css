@@ -337,7 +337,7 @@ section.investment_sec .right_img_wrapper video {
 
 section.pitch_sec {
   padding-top: 120px;
-  background-color: #3F3F3F;
+  /* background-color: #3F3F3F; */
 }
 
 section.pitch_sec .heading_wrapper h1 {
@@ -348,7 +348,7 @@ section.pitch_sec .heading_wrapper h1 {
 }
 
 section.pitch_sec .heading_wrapper h3 {
-  color: #ffffff;
+  color: #3F3F3F;
   text-align: center;
   font-size: 36px;
   margin-bottom: 40px;
@@ -356,7 +356,7 @@ section.pitch_sec .heading_wrapper h3 {
 
 section.pitch_sec .inner_img img {
   width: 100%;
-  border: 1px solid #ffffff;
+  border: 1px solid #3F3F3F;
   border-radius: 10px;
   padding: 15px;
 }
@@ -386,6 +386,8 @@ section.vision_sec .inner_para {
   padding: 50px 78px;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section.vision_sec .inner_para p {
@@ -419,6 +421,8 @@ section.mission_sec .inner_para {
   padding: 50px 78px;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section.mission_sec .inner_para p {
@@ -440,10 +444,15 @@ section.problem_sec .inner_img img {
   border-radius: 10px;
   border: 1px solid #ffffff;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 section.problem_sec .inner_contant {
   padding-left: 45px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section.problem_sec .inner_contant h2 {
@@ -596,6 +605,7 @@ section.model_sec .box_inner_contant h2 {
   font-size: 28px;
   color: #ffffff;
   font-weight: 500;
+  text-align: center;
 }
 
 section.model_sec .box_inner_contant p {
@@ -603,6 +613,7 @@ section.model_sec .box_inner_contant p {
   font-size: 22px;
   font-weight: 200;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 section.roadmap_sec .inner_heading h2 {
@@ -638,6 +649,7 @@ section.roadmap_sec .box_inner_contant h2 {
   font-size: 28px;
   color: #ffffff;
   font-weight: 500;
+  text-align: center;
 }
 
 section.roadmap_sec .box_inner_contant p {
@@ -925,6 +937,60 @@ section.founder_sec .box_inner_contant {
   margin-bottom: 20px;
 }
 
+section.solution_sec.bingo_solution_sec {
+  background-image: none;
+  background-position: unset;
+  background-size: unset;
+  background-attachment: unset;
+}
+
+section.solution_sec.bingo_solution_sec .inner_img {
+  flex-direction: column;
+}
+
+section.solution_sec.bingo_solution_sec .inner_img img {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #3f3f3f;
+  margin-bottom: 15px;
+}
+
+section.business_sec.bingo_business_sec .inner_contant h2 {
+  text-align: center;
+}
+
+section.business_sec.bingo_business_sec .inner_img {
+  flex-direction: column;
+}
+
+section.business_sec.bingo_business_sec .inner_img img {
+  border-color: #fff;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+section.funds_sec.bingo_funds_sec .inner_heading h3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+section.founder_sec.bingo_founder_sec .inner_heading p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+section.founder_sec.bingo_founder_sec .inner_heading ul li {
+  font-size: 18px;
+}
+
+section.founder_sec.bingo_founder_sec .inner_heading ul {
+  margin-top: 30px;
+  list-style: none;
+  padding-left: 0;
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -1087,6 +1153,10 @@ section.founder_sec .box_inner_contant {
   section.founder_sec .inner_img {
     padding-left: 0;
     margin-top: 30px;
+  }
+
+  section.founder_sec.bingo_founder_sec .inner_heading p {
+    color: #3f3f3f;
   }
 }
 
