@@ -390,8 +390,8 @@ section.vision_sec .inner_para {
 
 section.vision_sec .inner_para p {
   color: #ffffff;
-  font-size: 30px;
-  text-align: justify;
+  font-size: 24px;
+  text-align: left;
 }
 
 section.mission_sec {
@@ -423,9 +423,8 @@ section.mission_sec .inner_para {
 
 section.mission_sec .inner_para p {
   color: #ffffff;
-  font-size: 30px;
-  text-align: justify;
-  text-align-last: right;
+  font-size: 24px;
+  text-align: right;
 }
 
 section.problem_sec {
@@ -757,6 +756,174 @@ section.costing_sec .box_inner_contant {
   margin-bottom: 28px;
 }
 
+section.sales_sec {
+  background-image: url(../img/pdf/image_2023_02_08T11_24_18_000Z.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+}
+
+section.sales_sec .inner_heading h2 {
+  text-align: left;
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+section.sales_sec .inner_heading p {
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+section.sales_sec .inner_img img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+section.sales_sec .inner_row_style {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 12px 25px 12px;
+}
+
+section.sales_sec .box_inner_contant h4 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+section.sales_sec .box_inner_contant p {
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+section.sales_sec .box_inner_contant {
+  margin-bottom: 20px;
+}
+
+section.funds_sec {
+  background-color: #3f3f3f;
+}
+
+section.funds_sec .inner_heading h2 {
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+section.funds_sec .inner_heading p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+section.funds_sec .inner_heading {
+  margin-bottom: 65px;
+}
+
+section.funds_sec .box_inner_contant {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 40px 34px 30px;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.funds_sec .box_inner_contant p {
+  color: #3f3f3f;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+section.funds_sec .inner_contant_data {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 28px 35px 12px;
+}
+
+section.funds_sec .inner_contant_data p {
+  color: #3f3f3f;
+  font-size: 18px;
+}
+
+section.founder_sec {
+  background-image: url(../img/pdf/image_2023_02_08T11_24_18_000Z.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+}
+
+section.founder_sec .inner_heading h2 {
+  text-align: left;
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+section.founder_sec .inner_heading ul li {
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section.founder_sec .inner_img img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  padding: 10px;
+}
+
+section.founder_sec .inner_img {
+  padding-left: 26px;
+}
+
+section.founder_sec .inner_video video {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+section.founder_sec .inner_row_style {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 12px 25px 12px;
+}
+
+section.founder_sec .box_inner_contant h4 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+section.founder_sec .box_inner_contant p {
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+section.founder_sec .box_inner_contant {
+  margin-bottom: 20px;
+}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -815,6 +982,111 @@ section.costing_sec .box_inner_contant {
 
   section.problem_sec .inner_contant {
     padding-left: 0;
+  }
+
+  section.mission_sec .inner_para p {
+    text-align-last: left;
+  }
+
+  section.solution_sec .inner_img img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  section.market_sec {
+    background-size: cover;
+    background-position: 100% 50%;
+  }
+
+  section.business_sec .inner_img {
+    margin-bottom: 60px;
+  }
+
+  section.model_sec .box_inner_contant {
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  section.ask_sec .box_inner_contant h2 {
+    text-align: center;
+  }
+
+  section.ask_sec .box_inner_contant p {
+    text-align: center;
+  }
+
+  section.ask_sec .box_inner_contant h3 {
+    text-align: center;
+  }
+
+  section.ask_sec .box_inner_contant h4 {
+    text-align: center;
+  }
+
+  section.ask_sec .box_inner_contant ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  section.ask_sec .box_inner_contant ul li {
+    text-align: center;
+  }
+
+  section.roadmap_sec .box_inner_contant {
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  section.costing_sec .box_inner_contant p {
+    text-align: center;
+  }
+
+  section.sales_sec {
+    background-image: none;
+  }
+
+  section.sales_sec .inner_heading h2 {
+    color: #3f3f3f;
+    text-align: center;
+  }
+
+  section.sales_sec .inner_heading p {
+    color: #3f3f3f;
+    text-align: center;
+  }
+
+  section.sales_sec .inner_img img {
+    border-color: #3f3f3f;
+    margin-bottom: 30px;
+  }
+
+  section.founder_sec {
+    background-image: none;
+  }
+
+  section.founder_sec .inner_heading h2 {
+    color: #3f3f3f;
+    text-align: center;
+  }
+
+  section.founder_sec .inner_heading ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  section.founder_sec .inner_heading ul li {
+    text-align: center;
+    color: #3f3f3f;
+  }
+
+  section.founder_sec .inner_video video {
+    border-color: #3f3f3f;
+  }
+
+  section.founder_sec .inner_img {
+    padding-left: 0;
+    margin-top: 30px;
   }
 }
 
